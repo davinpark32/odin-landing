@@ -9,33 +9,50 @@
   <body>
     <header>
       <p class="logo">Header Logo</p>
-      <a href="google.com" class="header-link">header link one</a>
-      <a href="google.com" class="header-link">header link two</a>
-      <a href="google.com" class="header-link">header link three</a>
+      <div class="link-container">
+        <a href="google.com" class="header-link">header link one</a>
+        <a href="google.com" class="header-link">header link two</a>
+        <a href="google.com" class="header-link">header link three</a>
+      </div>
     </header>
 
     <div class="hero">
-      <p>This website is awesome</p>
-      <p class="hero-secondary">
-        This website has some subtext that goes here under the main title. It's
-        smaller font and the color is lower contrast.
-      </p>
-      <button>Sign up</button>
+      <div class="hero-left">
+        <p>This website is awesome</p>
+        <p class="hero-secondary">
+          This website has some subtext that goes here under the main title. It's
+          smaller font and the color is lower contrast.
+        </p>
+        <button>Sign up</button>
+      </div>
       <div class="hero-image">this is a placeholder for an image</div>
     </div>
-    <div>
+
+
+    <div class="mid-container">
         <p>Some random information.</p>
-        <div class="box"></div>
-        <p>this is some subtext under an illustration or image</p>
-        <div class="box"></div>
-        <p>this is some subtext under an illustration or image</p>
-        <div class="box"></div>
-        <p>this is some subtext under an illustration or image</p>
-        <div class="box"></div>
-        <p>this is some subtext under an illustration or image</p>
+        <div class="boxes">
+          <box-container>
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </box-container>
+          <box-container>
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </box-container>
+          <box-container>
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </box-container>
+          <box-container>
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </box-container>
+        </div>
     </div>
     <div class="quote">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil obcaecati aliquam quia nemo assumenda nesciunt libero illo culpa adipisci et quo optio ullam placeat praesentium soluta quas, porro id aut.</p>
+      <p class="quote-author">- J.Robert Oppenheimer</p>
     </div>
     <footer>
       <p>Copyright © Davin Park 2023</p>
