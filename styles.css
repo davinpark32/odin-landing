@@ -95,6 +95,28 @@ a:link {
   font-style: normal;
   justify-content: flex-end;
 }
+
+.sign-up {
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue-box {
+  display: flex;
+  padding: 1rem 5rem;
+  background-color: #3882F6;
+  align-items: center;
+  gap: 5rem;
+}
+.blue-box-texts {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.blue-box-texts p {
+  margin: 0;
+}
 footer {
   display: flex;
   justify-content: center;
