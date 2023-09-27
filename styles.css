@@ -34,19 +34,28 @@ a:link {
 
 .hero-left p{
   margin: 0;
+  margin-bottom: .5rem;
   flex-basis: 400px;
-  
 }
+
 .logo {
   color: #F9FAF8;
   font-size: 24px;
   font-weight: bolder;
 }
-.header-link, 
 .hero-secondary,
 .hero-image {
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.header-link {
+  color: rgb(231, 231, 231);
+  font-size: 13px;
+}
+
+.hero-secondary {
+  font-size: 16px;
 }
 
 .hero-image {
@@ -80,8 +89,10 @@ a:link {
 .box {
   height: 150px;
   width: 150px;
-  border: 1px solid blue;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
 }
+
 .quote {
   font-style: italic;
   font-size: 24px;
@@ -103,11 +114,14 @@ a:link {
   align-items: center;
 }
 .blue-box {
+  border-radius: 5px;
   display: flex;
-  padding: 1rem 5rem;
+  padding: 2rem 8rem;
   background-color: #3882F6;
   align-items: center;
   gap: 5rem;
+  flex-basis: 500px;
+  justify-content: space-evenly ;
 }
 .blue-box-texts {
   color: white;
@@ -117,6 +131,31 @@ a:link {
 .blue-box-texts p {
   margin: 0;
 }
+.blue-box-texts p:nth-of-type(1){
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+.blue-box-texts p:nth-of-type(2) {
+  font-weight: lighter;
+  font-size: 11px;
+  color: rgb(231, 231, 231);
+}
+
+.button1,
+.button2 {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #3882F6;
+  padding: .5rem 2rem;
+}
+
+.button2{
+  border: 1px solid white;
+}
+
 footer {
   display: flex;
   justify-content: center;
